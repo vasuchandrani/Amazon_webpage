@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/*for-all----------------------------------------*/
+.border{
+    border: 1.2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white ;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*navbar----------------------------------------*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*box-1*/
+.nav-logo{
+    height: 40px;
+    width: 120px;
+    padding: 5px 5px 45px 5px;
+}
+.logo{
+    padding: 5px 0px 35px 0px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+
+/*box 2*/
+.nav-address{
+    padding: 5px;
+}
+.add1{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+/*box-3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 550px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 3px solid #febd68;
+}
+.search-select{
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    font-size: 0.85rem;
+    text-align: center;
+    color: gray;
+    background-color: #cccccc;
+}
+input{
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    padding-left: 10px;
+}
+.search-icon{
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd68;
+    color: #0f1111;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+
+/*box-4*/
+.nav-signin{
+    padding: 5px;
+}
+span{
+    font-size: .85rem;
+}
+.list{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/*box-5*/
+.nav-return{
+    padding: 5px;
+}
+span{
+    font-size: .85rem;
+}
+.order{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/*box-6*/
+.nav-cart{
+    display: flex;
+    align-items: baseline;
+    font-size: 2rem;
+    padding: 5px;
+}
+.cart{
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+
+/*pannel----------------------------------------*/
+.pannel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    font-size: .85rem;
+    background-color: #222f3d;
+    color: white;
+}
+.pannel-all{
+    padding: 10px;
+    font-size: .85rem;
+    font-weight: 700;
+}
+.pannel-ops{
+    width: 75%;
+}
+.pannel-ops a{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.pannel-ops a:active{
+    color: #cccccc;
+}
+.pannel-deals{
+    font-size: .85rem;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Hero_section----------------------------------------*/
+.hero-section{
+    height: 350px;
+    background-image: url(Hero_section.jpg);
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text{
+    font-size: .90rem;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.hero-text a{
+    text-decoration: none;
+    color: #007185;
+}
+.hero-text a:hover{
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+/*shop-sections----------------------------------------*/
+.shop{
+    background-color: #e2e7e6;
+}
+.box{
+    background-color: white;
+    width: 23%;
+    height: 400px;
+    position: relative;
+    bottom: 80px;
+    padding: 20px 20px 20px 20px;
+}
+.seemore{
+    margin-top: 30px;
+    font-size: .85rem;  
+    color: #007185;  
+}
+
+
+/*sec-1----------------------------------------*/
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    /* margin-bottom: 10px; */
+}
+
+/*shop-1*/ 
+.box1h2{
+    margin-bottom: 15px;
+}
+.boxA1-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxA1_toy.jpg);
+    background-size: cover;
+}
+
+/*shop-2*/
+.box2h2{
+    margin-bottom: 15px;
+}
+.boxA2-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxA2_electronics.jpg);
+    background-size: cover;
+}
+
+/*shop-3*/
+.box3h2{
+    margin-bottom: 15px;
+}
+.boxA3-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxA3_shoes.jpg);
+    background-size: cover;
+}
+
+
+/*shop-4*/
+.box4h2{
+    margin-bottom: 15px;
+}
+.boxA4-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxA4_festival.jpg);
+    background-size: cover;
+}
+
+
+/*sec-2----------------------------------------*/
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    margin-top: 20px;
+}
+
+/*shop-1*/
+.box1h2{
+    margin-bottom: 15px;
+}
+.boxB1-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxB1_gift.jpg);
+    background-size: cover;
+}
+
+/*shop-2*/
+.box2h2{
+    margin-bottom: 15px;
+}
+.boxB2-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxB2_furniture.jpg);
+    background-size: cover;
+}
+
+/*shop-3*/
+.box3h2{
+    margin-bottom: 15px;
+}
+.boxB3-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxB3_work.jpg);
+    background-size: cover;
+}
+
+/*shop-4*/
+.box4h2{
+    margin-bottom: 15px;
+}
+.boxB4-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxB4_tshirt.jpg);
+    background-size: cover;
+}
+
+/*shop-fullbox----------------------------------------*/
+.shop-fullbox{
+    height: 350px;
+    position: relative;
+    bottom: 80px;
+    padding: 20px 18px 20px 18px;
+}
+.fullbox-content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+/*fullbox-1----------------------------------------*/
+.fullbox1-text{    
+    margin: 10px 0px 10px 10px;
+}
+.full-img1{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fullboxA1-img{
+    height: 95%;
+    width: 19%;
+    background-image: url(fullboxA1.jpg);
+    background-size: cover;
+}
+.fullboxA2-img{
+    height: 95%;
+    width: 20%;
+    background-image: url(fullboxA2.jpg);
+    background-size: cover;
+}
+.fullboxA3-img{
+    height: 95%;
+    width: 10%;
+    background-image: url(fullboxA3.jpg);
+    background-size: cover;
+}
+.fullboxA4-img{
+    height: 95%;
+    width: 12%;
+    background-image: url(fullboxA4.jpg);
+    background-size: cover;
+}
+.fullboxA5-img{
+    height: 95%;
+    width: 10%;
+    background-image: url(fullboxA5.jpg);
+    background-size: cover;
+}
+.fullboxA6-img{
+    height: 95%;
+    width: 18%;
+    background-image: url(fullboxA6.jpg);
+    background-size: cover;
+}
+
+
+/*sec-3----------------------------------------*/
+.shop-section3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+/*box class of this part-3 is as above section */
+/*shop-1*/
+.box1h2{
+    margin-bottom: 15px;
+}
+.boxC1-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxC1_accessories.jpg);
+    background-size: cover;
+}
+
+/*shop-2*/
+.box2h2{
+    margin-bottom: 15px;
+}
+.boxC2-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxC2_game.jpg);
+    background-size: cover;
+}
+
+/*shop-3*/
+.box3h2{
+    margin-bottom: 15px;
+}
+.boxC3-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxC3_personalcare.jpg);
+    background-size: cover;
+}
+
+/*shop-4*/
+.box4h2{
+    margin-bottom: 15px;
+}
+.boxC4-img{
+    height: 60%;
+    width: 100%;
+    background-image: url(boxC4_fitness.jpg);
+    background-size: cover;
+}
+
+
+/*fullbox-2----------------------------------------*/
+.fullbox2-text{
+    margin: 10px 0px 10px 10px;
+}
+.full-img2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fullboxB1-img{
+    height: 95%;
+    width: 19%;
+    background-image: url(fullboxA1.jpg);
+    background-size: cover;
+}
+.fullboxB2-img{
+    height: 95%;
+    width: 20%;
+    background-image: url(fullboxA2.jpg);
+    background-size: cover;
+}
+.fullboxB3-img{
+    height: 95%;
+    width: 10%;
+    background-image: url(fullboxA3.jpg);
+    background-size: cover;
+}
+.fullboxB4-img{
+    height: 95%;
+    width: 12%;
+    background-image: url(fullboxA4.jpg);
+    background-size: cover;
+}
+.fullboxB5-img{
+    height: 95%;
+    width: 10%;
+    background-image: url(fullboxA5.jpg);
+    background-size: cover;
+}
+.fullboxB6-img{
+    height: 95%;
+    width: 18%;
+    background-image: url(fullboxA6.jpg);
+    background-size: cover;
+}
+
+
+/*footer----------------------------------------*/
+/*footer-pannel1----------------------------------------*/
+.footer-pannel1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+    height: 60px;
+    background-color: #37475a;
+    font-size: .90rem;
+    font-weight: 550;
+}
+.footer-a{
+    color: white;
+}
+
+/*footer-pannel2----------------------------------------*/
+.footer-pannel2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 30px 0px 30px;
+    position: relative;
+    bottom: 60px;
+    height: 600px;
+    background-color: #222f3d;
+    color: white;
+}
+.pannel2-content p{
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.pannel2-content a{
+    display: block;
+    margin-bottom: 10px;
+    color: #DDDDDD;
+    font-size: .85rem;
+}
+.pannel2-content a:hover{
+    text-decoration: underline;
+}
+
+/*footer-pannel3----------------------------------------*/
+.footer-pannel3{
+    padding: 20px 150px 20px 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 300px;
+    height: 100px;
+    background-color: #222f3d;
+    border-top: 0.5px solid #cccccc;
+}
+.pannel3-logo{
+    background-image: url("amazon_logo.png");
+    height: 32px;
+    width: 90px;
+    background-size: cover;
+}
+.pannel3-select{
+    margin: 0px 5px 0px 5px;
+    color: #cccccc;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+.pannel3-select select{
+    color: #cccccc;
+    background-color: transparent;
+    border: none;
+}
+
+.pannel3-ops{
+    font-size: .85rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.ops{
+    margin: 0px 5px 0px 5px;
+    padding: 8px 10px 8px 10px;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+.ops a{
+    color: #cccccc;
+}
+
+/*footer-pannel4----------------------------------------*/
+.footer-pannel4{
+    position: relative;
+    bottom: 270px;
+    height: 100px;
+    background-color: #131A22;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px 150px 20px 150px;
+}
+.pannel4-line1{
+    margin: 10px 0px 10px 0px;
+    font-size: .85rem;
+}
+.pannel4-line1 a{
+    color: #cccccc;
+    padding: 5px 5px 5px 5px;
+}
+.pannel4-line1 a:hover{
+    text-decoration: underline;
+}
